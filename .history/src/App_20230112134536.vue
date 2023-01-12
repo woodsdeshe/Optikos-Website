@@ -1,7 +1,6 @@
 <template>
  <nav-bar></nav-bar>
- <the-footer></the-footer>
-
+<
 </template>
 
 <script>
@@ -11,8 +10,7 @@
 
   export default {
     components: {
-      NavBar,
-      TheFooter
+      NavBar
     }
   }
 

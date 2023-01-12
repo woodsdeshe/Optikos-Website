@@ -1,20 +1,13 @@
 <template>
- <nav-bar></nav-bar>
- <the-footer></the-footer>
-
+  <nav>
+    <router-link to="/">Home</router-link> |
+    <router-link to="/about">Sign-In</router-link>
+  </nav>
+  <router-view/>
 </template>
 
 <script>
-  import NavBar from './components/NavBar.vue';
-  import TheFooter from './components/TheFooter.vue';
-
-
-  export default {
-    components: {
-      NavBar,
-      TheFooter
-    }
-  }
+  import NavBar from './components/'
 
 </script>
 

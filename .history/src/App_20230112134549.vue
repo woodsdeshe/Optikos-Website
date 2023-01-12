@@ -1,6 +1,6 @@
 <template>
  <nav-bar></nav-bar>
- <the-footer></the-footer>
+ <
 
 </template>
 
